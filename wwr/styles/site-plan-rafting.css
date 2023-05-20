@@ -11,7 +11,7 @@ Fonts are separated by a & */
   --accent1-color: #f5f5f5;
   --accent2-color: #037971;
   --accent3-color: #3b6f91;
-
+ 
   /* change the values below to your chosen font(s) */
   --heading-font: "Castoro Titling";
   --paragraph-font: "Roboto Serif", Helvetica, sans-serif;

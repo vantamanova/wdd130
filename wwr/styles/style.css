@@ -1,3 +1,6 @@
+/*Importing fronts*/
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto+Serif:wght@100&display=swap');
+
 div {
     max-width: 1600px
 }
@@ -8,10 +11,14 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: "Roboto Serif", Helvetica, sans-serif;
+    padding: 35px;
 
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family: "Roboto Serif", Helvetica, sans-serif;
+    
 }
 .button-box {
     text-align: center;
@@ -19,12 +26,19 @@ nav a {
 main section {
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #c6bca9;
 }
 body{
     background-color: white;
+    font-family: "Roboto Serif", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #3b6f91;
@@ -33,56 +47,95 @@ nav a:hover {
     background-color: white;
     color: #49403b;
     text-decoration: underline;
+    font-family: "Roboto Serif", Helvetica, sans-serif;
 }
 .book, .join {
     background-color: #3b6f91;
     color: white;
     text-decoration: none;
+    font-family: "Roboto Serif", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 .book:hover, .join:hover {
     background-color: #49403b;
     color: white;
-}
+    font-family: "Roboto Serif", Helvetica, sans-serif;
+} 
 .msg {
     background-color: #037971;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #49403b;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: white;
     text-decoration: none;
+    font-family: "Roboto Serif", Helvetica, sans-serif;
 }
 footer a:hover {
     color: #c6bca9;
     text-decoration: underline;
+    font-family: "Roboto Serif", Helvetica, sans-serif;
 }
 footer p {
     font-size: 1.2em;
+    font-family: "Roboto Serif", Helvetica, sans-serif;
 } 
 footer p a:hover {
     text-decoration: underline;
-} 
+    font-family: "Roboto Serif", Helvetica, sans-serif;
+}
+footer .social img{
+    padding-top: 15px;
+}
 .home-title {
     color: #49403b;
+    font-family: "Castoro Titling", Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #49403b;
+    font-family: "Roboto Serif", Helvetica, sans-serif;
+}
+h2 {
+    margin: 0;
 }
 .msg h2 {
     color: white;
+    font-family: "Castoro Titling", Times, serif;
 }
 .msg p {
     color: white;
+    font-family: "Roboto Serif", Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .logo {
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #49403b ;
 }
