@@ -1,5 +1,5 @@
 /*Importing fronts*/
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto+Serif:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto+Serif:wght@400&display=swap');
 
 div {
     max-width: 1600px
@@ -34,7 +34,6 @@ main section {
 main section img{
     box-sizing: border-box;
 }
-
 #background {
     height: 725px;
     background-color: #c6bca9;
@@ -49,7 +48,7 @@ body{
     padding: 0;
 }
 header {
-    background: rgba(59, 111, 145, 0.3);
+    background-color: #3b6f91;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -60,18 +59,18 @@ nav {
 nav a:hover {
     background-color: white;
     color: #49403b;
-    text-decoration: underline;
     font-family: "Roboto Serif", Helvetica, sans-serif;
 }
 .book, .join {
-    background-color: #3b6f91;
-    color: white;
+    background-color: white;
+    color: #49403b;
     text-decoration: none;
     font-family: "Roboto Serif", Helvetica, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
 
 }
 .book:hover, .join:hover {
