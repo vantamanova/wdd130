@@ -38,7 +38,8 @@ body {
   text-align: center;
 }
 img {
-  display: block;
+  display: grid;
+  grid-template-columns: 1em 1em 1em;
   margin: 0 auto;
   width: 30%;
 }
@@ -177,3 +178,8 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+/*.portfolio{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1em 1em 1em;
+}*/
