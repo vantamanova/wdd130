@@ -1,11 +1,9 @@
 /*Importing fronts*/
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto+Serif:wght@400&display=swap');
 
-div {
-    max-width: 1600px
-}
 #content {
     margin: 0 auto;
+    max-width: 1600px
 }
 nav a {
     text-align: center;
@@ -201,6 +199,10 @@ h2 {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px black;
 }
+.faq-grid {
+    background-color: #c6bca9;
+    padding: 100px;
+}
 .faq-grid h1 {
     width: 100%;
     grid-column: 1/11;
@@ -274,6 +276,7 @@ h2 {
 }
 .second h2, .third h2, .fourth h2 {
     width: 100%;
+    grid-column: 1/4;
     grid-row: 1/2;
     text-align: start;
     margin: 70px 5px 10px 5px;
@@ -331,7 +334,7 @@ h2 {
 .benifit_one {
     grid-column: 1/2;
     grid-row: 7/8;
-    margin: 10px 100px 10px 100px;
+    margin: 10px 10px 10px 10px;
     border: 5px solid #49403b ;
     transition: transform .5s;
     box-shadow: 5px 5px 10px black;
@@ -339,11 +342,11 @@ h2 {
 .benifit_two {
     grid-column: 2/3;
     grid-row: 7/8;
-    margin: 10px 100px 10px 100px;
+    margin: 10px 10px 10px 100px;
     border: 5px solid #49403b ;
     transition: transform .5s;
     box-shadow: 5px 5px 10px black;
-}
+} 
 .fourth {
     display: grid;
     grid-template-columns: 1fr;
