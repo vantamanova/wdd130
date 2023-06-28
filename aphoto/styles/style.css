@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&display=swap');
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 234, 210, .2);
+}
+#content {
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    align-content: center;
+}
+header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 5;
+}
+#logo_link {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.logo {
+    padding: 10px 0px 0px 30px;
+    width: 20%;
+}
+nav {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 0px 0px 30px;
+}
+nav a {
+    font-family: "Playfair Display";
+    color: #423E3B;
+}
+nav a:hover {
+    font-family: "Playfair Display";
+    color: #F0EAD2;
+}
+#hero {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/3; 
+    margin-top: -200px;
+}
+main {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    background-color: rgb(240, 234, 210, .2);
+}
+h2, p {
+    color: #423E3B;
+}
+.about-me {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 50px 150px 50px 150px;
+}
+.about-me h1 {
+    font-family: "Playfair Display";
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+}
+.about-me p:nth-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 0px 100px 0px 0px;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.about-me p:nth-of-type(2) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 0px 100px 0px 0px;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.about-me p:nth-of-type(3) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding: 0px 100px 0px 0px;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.about-me p:nth-of-type(4) {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    padding: 0px 100px 0px 0px;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.about-me p:nth-of-type(5) {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    padding: 0px 100px 0px 0px;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.about-me p:nth-of-type(6) {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    padding: 0px 100px 0px 0px;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.about-me p:nth-of-type(7) {
+    grid-column: 1/2;
+    grid-row: 8/9;
+    padding: 0px 100px 0px 0px;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.about-me p:nth-of-type(8) {
+    grid-column: 1/2;
+    grid-row: 9/10;
+    padding: 0px 100px 0px 0px;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.about-me img {
+    grid-column: 2/3;
+    grid-row: 2/10;
+    width: 110%;
+    align-self: center;
+    justify-self: right;
+    box-shadow: 5px 5px 10px #836C5D;
+}
+.portraits {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 150px 50px 150px;
+}
+
+.portraits h1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-family: "Playfair Display";
+}
+.portraits p {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.portrait-one {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.portrait-two {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.portrait-three {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.portrait-one img, .portrait-two img, .portrait-three img{
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    transition: transform .5s;
+    box-shadow: 1px 1px 4px #836C5D;
+}
+.portrait-one img:hover, .portrait-two img:hover, .portrait-three img:hover {
+    opacity: 1;
+    transform: scale(3);
+}
+.love-story {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px 150px 50px 150px;
+}
+.love-story h1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-family: "Playfair Display";
+}
+.love-story p {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.love-one {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+
+}
+.love-one img {
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    transition: transform .5s;
+    box-shadow: 1px 1px 4px #836C5D;
+}
+.love-one img:hover {
+    opacity: 1;
+    transform: scale(3);
+}
+.family-photo {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 150px 50px 150px;   
+}
+.family-photo h1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-family: "Playfair Display";
+}
+.family-photo p {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.family-three {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.family-two {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.family-four {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.family-one img, .family-two img, .family-three img, .family-four img {
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    transition: transform .5s;
+    box-shadow: 1px 1px 4px #836C5D;
+}
+.family-one img:hover, .family-two img:hover, .family-three img:hover, .family-four img:hover {
+    opacity: 1;
+    transform: scale(3);
+}
+.wedding {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 100px 150px 200px 150px;  
+}
+.wedding h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: "Playfair Display";
+}
+.wedding p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+}
+.wedding-one {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: grid;  
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.wedding-one img {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    transition: transform .5s;
+    box-shadow: 1px 1px 4px #836C5D;
+}
+.wedding-one img:hover {
+    opacity: 1;
+    transform: scale(3);
+}
+footer {
+    background: #836C5D;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 100px 0px 100px;
+}
+footer p:nth-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+    color: #F0EAD2;
+}
+footer p a{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: "PT Sans", "PT Serif" , sans-serif;
+    color: #F0EAD2;
+}
+footer p a:hover {
+    color: #423E3B;
+}
+.social {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.social a:nth-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.social a:nth-of-type(2) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+.social a:nth-of-type(3) {
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+}
+.social img {
+    width: 30%;
+    margin: 4px 20px 1px 20px;
+}
