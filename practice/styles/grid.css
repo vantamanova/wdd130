@@ -1,0 +1,123 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+/*? где грид 5?
+    • Use the align-items: center to center the text vertically in each row
+*/
+* {
+    box-sizing: border-box;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: #c9c6c6;
+    padding: 1rem;
+    
+  }
+  
+  .grid1 h1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  
+  .grid2 {
+    grid-column: 2/11;
+    grid-row: 2/3;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .grid2 h2 {
+    grid-column: 3/5;
+    grid-row: 1/2;
+  }
+  .grid3 {
+    background-color: rgb(144, 206, 144);
+    grid-column: 7/13;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1rem;
+  }
+  
+  .grid3 h3 {
+    grid-column: 2/5;
+  }
+  
+  .grid4 {
+    background-color: rgb(182, 227, 235);
+    grid-column: 4/11;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1rem;
+  }
+  
+  .grid4 h2 {
+    grid-column: 2/4;  
+  }
+  
+  section {
+    background-color: white;
+    grid-column: 2/9;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1rem;
+  }
+  
+  section h2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    
+  }
+  form {
+    grid-column: 2/7;
+    padding: 1rem;
+  }
+  legend {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  fieldset {
+    background-color: rgb(245, 240, 170);
+    display: grid;
+    grid-template-columns: 1fr 5fr; 
+  }
+  fieldset > div {
+    display: grid;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+  }
+  
+  label {
+    width: 100%;
+    grid-column: 1/2;
+    vertical-align: top;
+    display: flex;
+    justify-content: right;
+  }
+  
+  input {
+    grid-column: 2/3;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
+  
+  button {
+    grid-column: 1/3;
+    width: 100%;
+    background-color: rgb(137, 204, 243);
+    padding: 1rem;
+  }
+  
+  section > div {
+    grid-column: 2/7;
+    grid-row: 3/4;
+    width: 100%;
+    padding: 1rem;
+  }
