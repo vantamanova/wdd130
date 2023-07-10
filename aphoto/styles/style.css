@@ -6,6 +6,7 @@ body {
   padding: 0;
   background-color: #c4b19f;
 }
+
 #content {
   background-color: white;
   display: grid;
@@ -15,6 +16,7 @@ body {
   padding: 0;
   align-content: center;
 }
+
 header {
   grid-column: 1/4;
   grid-row: 1/2;
@@ -22,14 +24,17 @@ header {
   grid-template-columns: 1fr 1fr;
   z-index: 5;
 }
+
 #logo_link {
   grid-column: 1/2;
   grid-row: 1/3;
 }
+
 .logo {
   padding: 10px 0px 0px 30px;
   width: 30%;
 }
+
 nav {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -37,6 +42,7 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   padding: 10px 0px 0px 80px;
 }
+
 nav a {
   font-family: "Playfair Display";
   color: #423e3b;
@@ -48,12 +54,14 @@ nav a {
   border: 0.5px #836c5d;
   box-shadow: 5px 5px 10px #f0ead2;
 }
+
 nav a:hover {
   font-family: "Playfair Display";
   color: #f0ead2;
   background-color: #76a9bc;
   box-shadow: 5px 5px 10px #76a9bc;
 }
+
 #hero {
   width: 100%;
   max-width: 1600px;
@@ -61,6 +69,7 @@ nav a:hover {
   grid-row: 1/3;
   margin-top: -200px;
 }
+
 main {
   grid-column: 1/4;
   grid-row: 3/4;
@@ -69,16 +78,19 @@ main {
   grid-template-columns: 1fr;
   background-color: rgb(240, 234, 210, 0.2);
 }
+
 h1 {
   color: #423e3b;
   font-family: "Playfair Display";
   text-align: center
 }
+
 p {
   color: #423e3b;
   font-family: "PT Sans", "PT Serif", sans-serif;
   text-align: center
 }
+
 .about-me {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -86,59 +98,69 @@ p {
   grid-template-columns: 2fr 1fr;
   padding: 50px 150px 50px 150px;
 }
+
 .about-me h1 {
   grid-column: 1/3;
   grid-row: 1/2;
   text-align: left;
 }
+
 .about-me p:nth-of-type(1) {
   grid-column: 1/2;
   grid-row: 2/3;
   padding: 0px 100px 0px 0px;
   text-align: left;
 }
+
 .about-me p:nth-of-type(2) {
   grid-column: 1/2;
   grid-row: 3/4;
   padding: 0px 100px 0px 0px;
   text-align: left;
 }
+
 .about-me p:nth-of-type(3) {
   grid-column: 1/2;
   grid-row: 4/5;
   padding: 0px 100px 0px 0px;
   text-align: left;
 }
+
 .about-me p:nth-of-type(4) {
   grid-column: 1/2;
   grid-row: 5/6;
   padding: 0px 100px 0px 0px;
   text-align: left;
 }
+
 .about-me p:nth-of-type(5) {
   grid-column: 1/2;
   grid-row: 6/7;
   padding: 0px 100px 0px 0px;
   text-align: left;
 }
+
 .about-me p:nth-of-type(6) {
   grid-column: 1/2;
   grid-row: 7/8;
   padding: 0px 100px 0px 0px;
   text-align: left;
 }
+
 .about-me p:nth-of-type(7) {
   grid-column: 1/2;
   grid-row: 8/9;
   padding: 0px 100px 0px 0px;
   text-align: left;
 }
+
 .about-me p:nth-of-type(8) {
   grid-column: 1/2;
   grid-row: 9/10;
   padding: 0px 100px 0px 0px;
   text-align: left;
 }
+
 .about-me img {
   grid-column: 2/3;
   grid-row: 2/10;
@@ -147,6 +169,7 @@ p {
   justify-self: right;
   box-shadow: 5px 5px 10px #836c5d;
 }
+
 .portraits {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -159,29 +182,34 @@ p {
   grid-column: 1/4;
   grid-row: 1/2;
 }
+
 .portraits p {
   grid-column: 1/4;
   grid-row: 2/3;
   margin-bottom: 30px;
 }
+
 .portrait-one {
   grid-column: 2/3;
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .portrait-two {
   grid-column: 1/2;
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .portrait-three {
   grid-column: 3/4;
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .portrait-one img,
 .portrait-two img,
 .portrait-three img {
@@ -191,12 +219,14 @@ p {
   transition: transform 0.5s;
   box-shadow: 1px 1px 4px #836c5d;
 }
+
 .portrait-one img:hover,
 .portrait-two img:hover,
 .portrait-three img:hover {
   opacity: 1;
   transform: scale(3);
 }
+
 .love-story {
   grid-column: 1/2;
   grid-row: 3/4;
@@ -204,21 +234,25 @@ p {
   grid-template-columns: 1fr;
   padding: 50px 150px 50px 150px;
 }
+
 .love-story h1 {
   grid-column: 1/4;
   grid-row: 1/2;
 }
+
 .love-story p {
   grid-column: 1/4;
   grid-row: 2/3;
   margin-bottom: 30px;
 }
+
 .love-one {
   grid-column: 2/3;
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
 }
+
 .love-one img {
   width: 90%;
   align-self: center;
@@ -226,10 +260,12 @@ p {
   transition: transform 0.5s;
   box-shadow: 1px 1px 4px #836c5d;
 }
+
 .love-one img:hover {
   opacity: 1;
   transform: scale(3);
 }
+
 .family-photo {
   grid-column: 1/2;
   grid-row: 4/5;
@@ -237,33 +273,39 @@ p {
   grid-template-columns: repeat(3, 1fr);
   padding: 50px 150px 50px 150px;
 }
+
 .family-photo h1 {
   grid-column: 1/4;
   grid-row: 1/2;
 }
+
 .family-photo p {
   grid-column: 1/4;
   grid-row: 2/3;
   margin-bottom: 30px;
 }
+
 .family-three {
   grid-column: 1/2;
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .family-two {
   grid-column: 2/3;
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .family-four {
   grid-column: 3/4;
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .family-one img,
 .family-two img,
 .family-three img,
@@ -274,6 +316,7 @@ p {
   transition: transform 0.5s;
   box-shadow: 1px 1px 4px #836c5d;
 }
+
 .family-one img:hover,
 .family-two img:hover,
 .family-three img:hover,
@@ -281,6 +324,7 @@ p {
   opacity: 1;
   transform: scale(3);
 }
+
 .wedding {
   grid-column: 1/2;
   grid-row: 5/6;
@@ -288,21 +332,25 @@ p {
   grid-template-columns: 1fr;
   padding: 100px 150px 200px 150px;
 }
+
 .wedding h1 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
+
 .wedding p {
   grid-column: 1/2;
   grid-row: 2/3;
   margin-bottom: 30px;
 }
+
 .wedding-one {
   grid-column: 1/2;
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
 }
+
 .wedding-one img {
   width: 100%;
   align-self: center;
@@ -310,10 +358,12 @@ p {
   transition: transform 0.5s;
   box-shadow: 1px 1px 4px #836c5d;
 }
+
 .wedding-one img:hover {
   opacity: 1;
   transform: scale(3);
 }
+
 footer {
   background: #836c5d;
   grid-column: 1/4;
@@ -322,11 +372,13 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0px 100px 0px 100px;
 }
+
 footer p:nth-of-type(1) {
   grid-column: 1/2;
   grid-row: 1/2;
   color: #f0ead2;
 }
+
 footer p a {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -334,34 +386,42 @@ footer p a {
   color: #f0ead2;
   text-decoration: none;
 }
+
 footer p a:hover {
   color: #423e3b;
 }
+
 .social {
   grid-column: 3/4;
   grid-row: 1/2;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .social a:nth-of-type(1) {
   grid-column: 1/2;
   grid-row: 1/2;
 }
+
 .social a:nth-of-type(2) {
   grid-column: 2/3;
   grid-row: 1/2;
 }
+
 .social a:nth-of-type(3) {
   grid-column: 3/4;
   grid-row: 1/2;
 }
+
 .social img {
   width: 30%;
   margin: 4px 20px 1px 20px;
 }
+
 .social img:hover {
   box-shadow: 5px 5px 10px #c4b19f;
 }
+
 /*Page wtw*/
 .wtw {
   grid-column: 1/2;
@@ -370,35 +430,42 @@ footer p a:hover {
   display: grid;
   grid-template-columns: 1fr;
 }
+
 .wtw h1 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
+
 .wtw p {
   grid-column: 1/2;
   grid-row: 2/3;
   font-size: larger;
 }
+
 .wtw-one {
   grid-column: 1/2;
   grid-row: 2/3;
   padding: 0px 150px 50px 150px;
   grid-template-columns: 1fr;
 }
+
 .wtw-one h1 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
+
 .wtw-one p {
   grid-column: 1/2;
   grid-row: 2/3;
   margin-bottom: 30px;
   font-size: larger;
 }
+
 .wtw-one img {
   grid-column: 1/2;
   grid-row: 3/4;
 }
+
 .wtw-two {
   grid-column: 1/2;
   grid-row: 3/4;
@@ -406,6 +473,7 @@ footer p a:hover {
   grid-template-columns: repeat(3, 1fr);
   padding: 0px 150px 50px 150px;
 }
+
 .wtw-two h1,
 .wtw-three h1,
 .wtw-four h1,
@@ -413,6 +481,7 @@ footer p a:hover {
   grid-column: 1/4;
   grid-row: 1/2;
 }
+
 .wtw-two p,
 .wtw-three p,
 .wtw-four p,
@@ -421,6 +490,7 @@ footer p a:hover {
   grid-row: 2/3;
   font-size: larger;
 }
+
 .wtw-two img:nth-of-type(1),
 .wtw-three img:nth-of-type(1),
 .wtw-four img:nth-of-type(1),
@@ -432,6 +502,7 @@ footer p a:hover {
   justify-self: center;
   box-shadow: 5px 5px 10px #836c5d;
 }
+
 .wtw-two img:nth-of-type(2),
 .wtw-three img:nth-of-type(2),
 .wtw-four img:nth-of-type(2),
@@ -443,6 +514,7 @@ footer p a:hover {
   justify-self: center;
   box-shadow: 5px 5px 10px #836c5d;
 }
+
 .wtw-two img:nth-of-type(3),
 .wtw-three img:nth-of-type(3),
 .wtw-four img:nth-of-type(3),
@@ -454,6 +526,7 @@ footer p a:hover {
   justify-self: center;
   box-shadow: 5px 5px 10px #836c5d;
 }
+
 .wtw-two img:hover,
 .wtw-three img:hover,
 .wtw-four img:hover,
@@ -461,6 +534,7 @@ footer p a:hover {
   opacity: 1;
   transform: scale(1.3);
 }
+
 .wtw-three {
   grid-column: 1/2;
   grid-row: 4/5;
@@ -468,6 +542,7 @@ footer p a:hover {
   grid-template-columns: repeat(3, 1fr);
   padding: 0px 150px 50px 150px;
 }
+
 .wtw-four {
   grid-column: 1/2;
   grid-row: 5/6;
@@ -475,6 +550,7 @@ footer p a:hover {
   grid-template-columns: repeat(3, 1fr);
   padding: 0px 150px 50px 150px;
 }
+
 .wtw-five {
   grid-column: 1/2;
   grid-row: 6/7;
@@ -576,10 +652,12 @@ footer p a:hover {
   from {
     opacity: 0.4;
   }
+
   to {
     opacity: 1;
   }
 }
+
 /*конец эксперемента*/
 
 /*Third page*/
@@ -590,6 +668,7 @@ footer p a:hover {
   grid-template-columns: repeat(3, 1fr);
   padding: 50px 150px 20px 150px;
 }
+
 .france {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -597,6 +676,7 @@ footer p a:hover {
   grid-template-columns: repeat(3, 1fr);
   padding: 0px 150px 20px 150px;
 }
+
 .armenia {
   grid-column: 1/2;
   grid-row: 3/4;
@@ -604,6 +684,7 @@ footer p a:hover {
   grid-template-columns: repeat(3, 1fr);
   padding: 0px 150px 50px 150px;
 }
+
 .georgia {
   grid-column: 1/2;
   grid-row: 4/5;
@@ -611,6 +692,7 @@ footer p a:hover {
   grid-template-columns: repeat(3, 1fr);
   padding: 0px 150px 20px 150px;
 }
+
 .uae {
   grid-column: 1/2;
   grid-row: 5/6;
@@ -618,6 +700,7 @@ footer p a:hover {
   grid-template-columns: repeat(3, 1fr);
   padding: 50px 150px 100px 150px;
 }
+
 .inspo h1,
 .france h1,
 .armenia h1,
@@ -635,7 +718,7 @@ footer p a:hover {
   grid-column: 1/4;
   grid-row: 2/3;
   font-size: larger;
-  margin-bottom: 30px ;
+  margin-bottom: 30px;
 }
 
 .inspo p:nth-of-type(2) {
@@ -654,6 +737,7 @@ footer p a:hover {
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 50px;
 }
+
 .france-img img,
 .armenia-img img,
 .georgia-img img,
@@ -670,54 +754,67 @@ footer p a:hover {
   opacity: 1;
   transform: scale(1.3);
 }
+
 .france-img div:nth-of-type(1) {
   grid-column: 1/6;
   grid-row: 1/2;
 }
+
 .france-img div:nth-of-type(2) {
   grid-column: 1/6;
   grid-row: 2/3;
 }
-.france-img img:nth-of-type(1){
+
+.france-img img:nth-of-type(1) {
   grid-column: 1/2;
   grid-row: 3/4;
 }
-.france-img img:nth-of-type(2){
+
+.france-img img:nth-of-type(2) {
   grid-column: 2/3;
   grid-row: 3/4;
 }
-.france-img img:nth-of-type(3){
+
+.france-img img:nth-of-type(3) {
   grid-column: 3/4;
   grid-row: 3/4;
 }
-.france-img img:nth-of-type(4){
+
+.france-img img:nth-of-type(4) {
   grid-column: 4/5;
   grid-row: 3/4;
 }
-.france-img img:nth-of-type(5){
+
+.france-img img:nth-of-type(5) {
   grid-column: 5/6;
   grid-row: 3/4;
 }
-.france-img img:nth-of-type(6){
+
+.france-img img:nth-of-type(6) {
   grid-column: 1/2;
   grid-row: 4/5;
 }
-.france-img img:nth-of-type(7){
+
+.france-img img:nth-of-type(7) {
   grid-column: 2/3;
   grid-row: 4/5;
 }
-.france-img img:nth-of-type(8){
+
+.france-img img:nth-of-type(8) {
   grid-column: 3/4;
   grid-row: 4/5;
 }
-.france-img img:nth-of-type(9){
+
+.france-img img:nth-of-type(9) {
   grid-column: 4/5;
   grid-row: 4/5;
 }
-.france-img img:nth-of-type(10){
+
+.france-img img:nth-of-type(10) {
   grid-column: 5/6;
   grid-row: 4/5;
 }
+
 .france-img img:nth-of-type(1):hover,
 .france-img img:nth-of-type(2):hover,
 .france-img img:nth-of-type(3):hover,
@@ -731,29 +828,39 @@ footer p a:hover {
   opacity: 1;
   transform: scale(1.3);
 }
+
 .slideshow-container:hover {
   transform: none;
 }
+
 @media screen and (max-width: 900px) {
-  #hero, main{
-      display: block;
-      height: auto;
+
+  #hero,
+  main {
+    display: block;
+    height: auto;
 
   }
- #content {
-  width: 1400px;
- }
-  nav, footer {
-      flex-direction: column;
+
+  #content {
+    width: 1400px;
   }
-  nav a {
-      display: block;
-      padding: 5px;
-  }
-  #background {
-      display: none;
-  }
+
+  nav,
   footer {
-      margin-top: 25px;
+    flex-direction: column;
+  }
+
+  nav a {
+    display: block;
+    padding: 5px;
+  }
+
+  #background {
+    display: none;
+  }
+
+  footer {
+    margin-top: 25px;
   }
 }
